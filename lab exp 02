@@ -1,0 +1,26 @@
+# Ex. No. 2: Recover Deleted or Damaged Files Using TestDisk  
+
+## AIM  
+Step-by-step process to recover a missing partition and repair a corrupted one using **TestDisk**.  
+
+---
+
+## 1. Log Creation  
+- TestDisk detects and lists all hard drives with their correct sizes.  
+- Use **arrow keys** to select the hard drive with the lost partition.  
+- For faster transfer, prefer `/dev/rdisk*` over `/dev/disk*` (if available).  
+
+---
+
+## 2. Partition Table Type Selection  
+- TestDisk auto-detects the partition table type.  
+- The default value is usually correct.  
+- Press **Enter** to proceed.  
+
+---
+
+## 3. Analyse Partition Structure  
+- Use the **Analyse** menu to check the current structure and search for lost partitions.  
+- Examine listed partitions for missing or corrupted entries.  
+
+**Exa**
