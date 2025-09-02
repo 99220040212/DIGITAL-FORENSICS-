@@ -1,0 +1,18 @@
+# Ex. No. 3: Password Capturing using Wireshark  
+
+---
+
+## Overview  
+
+Wireshark can capture not only passwords but also any type of information transmitted over a network, including:  
+- Usernames  
+- Email addresses  
+- Personal information  
+
+As long as network traffic can be captured, Wireshark can sniff passing credentials.  
+It supports multiple protocols such as **HTTP, FTP, Telnet**, etc.  
+
+Captured data can be useful for:  
+- **Troubleshooting** network issues  
+- **Security analysis**  
+- (Maliciously) gaining unauthorized access to sensitive informatio
