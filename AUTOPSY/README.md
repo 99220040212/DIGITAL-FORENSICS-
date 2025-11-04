@@ -1,58 +1,43 @@
-## *Ex. No. 5 – Using Autopsy to Create a Case and Import Evidence*
+# Experiment 05: Forensic Investigation Using Autopsy
 
-## 📖 Overview
-**Autopsy** is an open-source **digital forensics platform** used for analyzing and extracting data from digital devices.  
-It supports disk images, file systems, and live analysis, making it a widely used forensic tool.
+## Objective
+To create a forensic case and analyze evidence using Autopsy.
 
----
+## Tools Used
+- Autopsy (Digital Forensics Platform)
+- Disk Image Files (.E01, .dd, .raw)
 
-## 🧩 Steps in Using Autopsy
+## Procedure
+1. *Install Autopsy* → Download & install.
+2. *Create New Case*:
+   - Enter case name, ID, examiner details.
+   - ![(images/step1.png)](https://github.com/SaicharanT-tech/Digital-Forensics-Lab-Exercises-/blob/be66cf664092069881c843ccc6fbbed1e413c8bb/Images/WhatsApp%20Image%202025-09-01%20at%2023.12.58_4040b722.jpg)
 
-### 1. Installation
-- Download Autopsy from the official website.  
-- Install according to OS (Windows, Linux, macOS).  
+3. *Add Data Source*:
+   - Import disk image / directory / local disk.
+   - Configure ingest modules (Hash lookup, Keyword search, etc.).
+   - ![(images/step2.png)](https://github.com/SaicharanT-tech/Digital-Forensics-Lab-Exercises-/blob/be66cf664092069881c843ccc6fbbed1e413c8bb/Images/WhatsApp%20Image%202025-09-01%20at%2023.12.58_08da058e.jpg)
 
----
-
-### 2. Starting a New Case
-- Launch Autopsy → **New Case**.  
-- Provide:  
-  - Case name  
-  - Case storage location  
-  - Case number  
-  - Examiner details  
-- Click **Next** to proceed.  
-
----
-
-### 3. Adding a Data Source
-- Select data source type:  
-  - Disk image (`.E01`, `.dd`, `.raw`)  
-  - Directory  
-  - Logical files  
-  - Local disks  
-- Browse and select the source file or device.  
-- Configure **Ingest Modules** (e.g., File Type Identification, Keyword Search, Hash Lookup).  
-- Start analysis.  
+Adding a Data Source:
+4. *Run Analysis*:
+   - Monitor ingest progress.
+   - View artifacts (Web history, Emails, File system).
+5. *Detailed Analysis*:
+   - Keyword search
+   - File system browsing
+   - Timeline visualization
+   - Hash comparison
+   - ![(images/step4.png)](https://github.com/SaicharanT-tech/Digital-Forensics-Lab-Exercises-/blob/be66cf664092069881c843ccc6fbbed1e413c8bb/Images/WhatsApp%20Image%202025-09-01%20at%2023.12.59_880cb6b6.jpg)
+6. *Generate Report*:
+   - Export in HTML/CSV/Excel.
+   - Include relevant artifacts.
+7. *Close Case & Archive*.
 
 ---
 
-### 4. Initial Analysis & Overview
-- **Ingest Progress** visible in status bar.  
-- Autopsy categorizes findings into:  
-  - Web artifacts  
-  - File system metadata  
-  - Communication records  
-- **Tree Viewer** allows navigation by:  
-  - File System  
-  - Web History  
-  - Emails  
-  - Other artifacts  
+## Result
+- Successfully created case and analyzed evidence.
+- Extracted forensic artifacts and generated detailed report.
 
----
-
-### 5. Detailed Analysis
-- **Keyword Search**:  
-  - Use built-in lists or custom keywords.  
-- **File Analysis**:  
-  - Navigate file system, open/view/export files.  
+## Conclusion
+Autopsy provides a comprehensive platform for forensic investigation, supporting case management, artifact extraction, and reporting.
