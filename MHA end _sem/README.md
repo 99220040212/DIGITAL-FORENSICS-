@@ -1,4 +1,4 @@
-# Experiment 04: Email Header Analysis & Spoofing Detection
+ Email Header Analysis & Spoofing Detection
 
 ## Objective
 To analyze email headers and detect possible email spoofing using the Mail Header Analyzer (MHA).
