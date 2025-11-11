@@ -1,4 +1,4 @@
- Email Header Analysis & Spoofing Detection
+ MAIL HEADER ANALYSES 
 
 ## Objective
 To analyze email headers and detect possible email spoofing using the Mail Header Analyzer (MHA).
